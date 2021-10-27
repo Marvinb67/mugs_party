@@ -1,3 +1,14 @@
+.card{
+    height: auto;
+}
 #majuscule{
     text-transform: uppercase !important;
+}
+#souris{
+    background: #ffff;
+    transition: 0.3s;
+}
+#souris:hover{
+    background: rgba(240, 255, 255, 1) !important;
+    cursor: pointer;
 }

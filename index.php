@@ -48,6 +48,7 @@ $couleurs = (array) ['Noir', 'Blanc', 'Violet', 'Marron', 'Rose', 'Vert', 'Jaune
     <link rel="stylesheet" href="css/bootstrap-v4.6.0.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -222,7 +223,7 @@ $couleurs = (array) ['Noir', 'Blanc', 'Violet', 'Marron', 'Rose', 'Vert', 'Jaune
             ?>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 text-align" id="carte">
                 <div class="card-columns-fluid">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" id = "souris">
                         <img src="images/<?= $mug['image']; ?>" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-uppercase" id = "majuscule"><?= $mug['title']; ?></h5>
